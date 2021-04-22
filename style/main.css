@@ -1,9 +1,3 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
-
-
 /* Basic config ----------------------------------------------------------
 ---------------------------------------------------------------------------*/
 * {
@@ -375,25 +369,26 @@ font-family: 'Roboto', sans-serif; */
     background: #F5F5F5;
 }
 
-.price-card {
+.card-price {
     display: inline-block;
     width: 340px;
 }
 
-.price-card--lower {
+.card-price--lower {
     margin-top: 62px;
 }
 
-.price-card--centre {
+.card-price--centre {
     margin: 47px 78px 0px;
     vertical-align: top;
 }
 
-.price-card--more-lower {
+.card-price--more-lower {
     margin-top: 64px;
+    vertical-align: top;
 }
 
-.price-card__version {
+.card-price__item-version {
     margin-bottom: 2px;
     padding: 16px 0px 7px;
     font-size: 20px;
@@ -401,7 +396,7 @@ font-family: 'Roboto', sans-serif; */
     background: #333333;
 }
 
-.price-card__cost {
+.card-price__item-cost {
     margin-bottom: 2px;
     padding: 26px 0px 33px;
     font-size: 36px;
@@ -410,7 +405,7 @@ font-family: 'Roboto', sans-serif; */
     background: #333333;
 }
 
-.price-card-description {
+.card-price__item-description {
     margin-bottom: 4px;
     padding: 17px 0px 14px;
     font-size: 14px;

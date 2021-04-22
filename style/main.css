@@ -1,0 +1,605 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+
+/* Basic config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Navigation ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    width: 1400px;
+    background: #000000;
+}
+
+.nav__logo {
+    display: inline-block;
+    padding: 20px 0px 19px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.span {
+    text-transform: uppercase;
+    color: #EC7979;
+}
+
+.nav__list {
+    display: inline-block;
+    margin-left: 625px;
+    padding: 25px 0 25px;
+    vertical-align: top;
+    word-spacing: 48px;
+}
+
+.nav__item {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+/* Header ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.header {
+    padding-top: 110px;
+    background: url(../img/background/town.jpg) no-repeat;
+}
+
+.description {
+    display: inline-block;
+    width: 544px;
+    padding-bottom: 100px;
+}
+
+.description__logo {
+    margin-bottom: 32px;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.description__title {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.description__line {
+    display: inline-block;
+    margin-bottom: 39px;
+    width: 64px;
+    border: 1px solid #FFFFFF;
+}
+
+.description__subtitle {
+    width: 282px;
+    margin-bottom: 39px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+
+.description__download {
+    width: 135px;
+    height: 42px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    cursor: pointer;
+}
+
+.description__download:focus {
+    border: 1px solid #BDBDBD;
+}
+
+/* Trial form ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.trial-form {
+    display: inline-block;
+    width: 370px;
+    margin-left: 265px;
+    text-align: center;
+    vertical-align: top;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.trial-form__title {
+    margin-bottom: 44px;
+    padding: 23px 59px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.trial-form__field {
+    display: block;
+    width: 252px;
+    margin: 0px 59px 19px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+}
+
+.trial-form__field::placeholder {
+    color: #BDBDBD;
+}
+
+.trial-form__field:focus {
+    border-bottom: 1px solid #000000;
+}
+
+.trial-form__submit {
+    display: inline-block;
+    width: 100%;
+    height: 54px;
+    margin-top: 42px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.trial-form__submit:focus {
+    border: 1px solid #000000;
+}
+
+/* Social ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.social {
+    background: #F8EFEF;
+}
+
+.social-heading {
+    display: inline-block;
+    width: 365px; 
+}
+
+.social-heading__title {
+    margin-bottom: 14px;
+    padding-top: 14px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.social-heading__description {
+    padding-bottom: 17px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social__icons {
+    display: inline-block;
+    width: 684px;
+    height: 42px;
+    margin: 34px 0px 34px 129px;
+    background: url(../img/icons/social__icons.png);
+    word-spacing: 27.71px;
+}
+
+.social__icons__link {
+    display: inline-block;
+    width: 70px;
+    height: 42px;
+}
+
+/* Main ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.features {
+    padding-top: 100px;;
+}
+
+.features-switch {
+    display: inline-block;
+    width: 112px;
+    padding: 25px 0px 115px;
+}
+
+.features-switch__square {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 10px;
+    background: #333333;
+}
+
+.features-switch__square-description {
+    padding: 45px 35px 45px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.features-switch__square:hover {
+    background: #EC7979;
+}
+
+.features-content {
+    display: inline-block;
+    width: 942px;
+    margin-left: 118px;
+    padding-top: 26px;
+    vertical-align: top;
+    background: url(../img/grey-town.png) no-repeat 606px 1px;
+}
+
+.features-content__title {
+    margin-bottom: 58px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.features-content__text {
+    width: 572px;;
+    padding-bottom: 14px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.description__download--red {
+    margin-top: 75px;
+    background: #EC7979;
+    border: none;
+}
+
+.description__download--red:focus {
+    border: 1px solid #333333;
+}
+
+/* Our process ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.our-process {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.heading__title {
+    margin-bottom: 34px;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.heading__line {
+    width: 64px;
+    height: 1px;
+    margin: 0 auto 34px;
+    background: #E72424;
+    border: none;
+}
+
+.heading__subtitle {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.card {
+    display: inline-block;
+    width: 350px; 
+    margin: 68px auto 96px;
+    text-align: center;
+}
+
+.card--centre {
+    margin: 0px 36px 0px 23px;
+}
+
+.card__icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.card__title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+.card__description {
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.card__icon--lamp {
+    background: url(../img/icons/lamp.png) no-repeat center;
+}
+
+.card__icon--keyboard {
+    background: url(../img/icons/keyboard.png) no-repeat center;
+}
+
+.card__icon--lightning {
+    background: url(../img/icons/lightning.png) no-repeat center;
+}
+
+/* Pricing ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.pricing {
+    padding-bottom: 56px;
+    text-align: center;
+    background: #F5F5F5;
+}
+
+.price-card {
+    display: inline-block;
+    width: 340px;
+}
+
+.price-card--lower {
+    margin-top: 62px;
+}
+
+.price-card--centre {
+    margin: 47px 78px 0px;
+    vertical-align: top;
+}
+
+.price-card--more-lower {
+    margin-top: 64px;
+}
+
+.price-card__version {
+    margin-bottom: 2px;
+    padding: 16px 0px 7px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #333333;
+}
+
+.price-card__cost {
+    margin-bottom: 2px;
+    padding: 26px 0px 33px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    background: #333333;
+}
+
+.price-card-description {
+    margin-bottom: 4px;
+    padding: 17px 0px 14px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+}
+
+.card-price__item {
+    margin-bottom: 4px;
+    padding: 10px 0px 11px;
+    font-size: 14px;
+    color: #86878B;
+    background: #FFFFFF;
+    list-style-type: none;
+}
+
+/* Reviews ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.reviews {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.reviews-card {
+    display: inline-block;
+    width: 298px;
+    padding-top: 67px;
+}
+
+.reviews-card--centre {
+    margin: 0px 98px 0px 112px;
+}
+
+.reviews-card__quote {
+    width: 252px;
+    padding: 14px 23px;
+    font-size: 14px;
+    color: #86878B;
+    background: #E2E2E2;
+    border-radius: 7px;
+}
+
+.reviews-card__avatar {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 22px 45px 0px;
+    background: url(../img/jeremy-h-avatar.png) no-repeat;
+    border-radius: 50%;
+}
+
+.reviews-info {
+    display: inline-block;
+    width: 97px;
+    margin-right: 41px;
+    vertical-align: top;
+}
+
+.reviews-info__name {
+    display: inline-block;
+    margin: 17px 0px 12px;
+    font-size: 20px;
+    color: #333333;   
+}
+
+.reviews-info__post {
+    display: inline-block;
+    margin-left: 32px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+/* Download ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.download {
+    padding-bottom: 38px;
+    text-align: center;
+    background: url(../img/background/street.jpg) no-repeat;
+    background-size: cover;
+}
+
+.heading__title--white {
+    color: #FFFFFF;
+}
+
+.heading__line--white {
+    background: #FFFFFF;
+}
+
+.heading__subtitle--white {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+
+.description__download--download-btn {
+    margin-top: 57px;
+}
+
+/* Contact ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.contact__content {
+    padding: 95px 0px 44px;
+}
+
+.contact-form__user {
+    display: inline-block;
+}
+
+.user__label {
+    color: #BDBDBD;
+    font-size: 14px;
+}
+
+.user__field {
+    display: block;
+    width: 478.01px;
+    margin: 33px 0 31.81px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+}
+
+.contact-form__text-area {
+    width: 478.01px;
+    height: 271px;
+    margin-left: 224.99px;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: none; 
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    resize: none;
+}
+
+.contact-form__text-area::placeholder {
+    color: #BDBDBD;
+}
+
+.user__field:focus,
+.contact-form__text-area:focus {
+    border-bottom: 1px solid #000000;
+}
+
+.contact-form__submit {
+    width: 166px;
+    height: 42px;
+    margin: 37px 510px 0px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact-form__submit:focus {
+    border: 1px solid #000000;
+}
+
+/* Footer ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.footer {
+    padding: 30px 0px 15px;
+    text-align: center;
+    background: #000000;
+}
+
+.small-icons {
+    width: 317px;
+    height: 23px;
+    margin: 0 auto 18px;
+    word-spacing: 11px;
+    background: url(../img/icons/social__icons.png) no-repeat;
+    background-size: contain;
+}
+
+.small-icons__link {
+    display: inline-block;
+    width: 35.5px;
+    height: 23px;
+}
+
+.copy {
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 50%;
+}

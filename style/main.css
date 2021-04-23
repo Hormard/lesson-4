@@ -429,17 +429,17 @@
     padding-bottom: 120px;
 }
 
-.reviews-card {
+.card-reviews {
     display: inline-block;
     width: 298px;
     padding-top: 67px;
 }
 
-.reviews-card--centre {
+.card-reviews--centre {
     margin: 0px 98px 0px 112px;
 }
 
-.reviews-card__quote {
+.card-reviews__quote {
     width: 252px;
     padding: 14px 23px;
     font-size: 14px;
@@ -448,7 +448,7 @@
     border-radius: 7px;
 }
 
-.reviews-card__avatar {
+.card-reviews__avatar {
     display: inline-block;
     width: 70px;
     height: 70px;

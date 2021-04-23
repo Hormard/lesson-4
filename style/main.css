@@ -388,29 +388,29 @@
     vertical-align: top;
 }
 
-.card-price__item-version {
-    margin-bottom: 2px;
+.card-price__version {
     padding: 16px 0px 7px;
     font-size: 20px;
     color: #FFFFFF;
     background: #333333;
+    border-bottom: 2px solid #FFFFFF;
 }
 
-.card-price__item-cost {
-    margin-bottom: 2px;
+.card-price__cost {
     padding: 26px 0px 33px;
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     background: #333333;
+    border-bottom: 2px solid #FFFFFF;
 }
 
-.card-price__item-description {
-    margin-bottom: 4px;
+.card-price__description {
     padding: 17px 0px 14px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     background: #333333;
+    border-bottom: 4px solid #FFFFFF;
 }
 
 .card-price__item {

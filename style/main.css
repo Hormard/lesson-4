@@ -414,11 +414,11 @@
 }
 
 .card-price__item {
-    margin-bottom: 4px;
     padding: 10px 0px 11px;
     font-size: 14px;
     color: #86878B;
     background: #FFFFFF;
+    border-bottom: 4px solid #F5F5F5;
     list-style-type: none;
 }
 
